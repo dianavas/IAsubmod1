@@ -1,0 +1,10 @@
+Idei, Intrebari, Probleme:
+	1. Cuvinte separate in silabe?
+	2. Ce facem cu titlurile, subtitlurile?
+	3. Ce facem cu frazele ce contin bullet-uri sau liniute? Dar cazul in care sunt bullet-uri si unele bullet-uri contin alte bullet-uri?
+	4. Identificare hedears and footers.
+	5. Notatii stiintifice.
+	6. Ce facem cu tabelele? Extragere informatie? Daca da, cum?
+	7. Imagini? Ingorare?
+	8. Un capitol are mai multe subcapitole numerotate. Ele ar trebui luate in considerare? pentru ca daca ai vrea sa faci un rezumat ai citi doar numele capitolului si numele subcapitolelor.
+	9. Ce facem cu diagramele in realizate in word?
