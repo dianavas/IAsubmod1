@@ -24,3 +24,24 @@ Impartirea submodulului nostru, ceea ce a zis profesorul:
 		- rezolutia anaforei
 5. Despartirea in silabe
 6. trebuie sa oferim la modulul 2 textul gata adnotat.
+
+Observatie profesor:
+	Ne intereseaza sa fie constructii in care sa avem termeni si verbe. Nu neaparat propozitii
+
+IMPORTANT
+	- In 2 saptamani deadline! Mai precis dead.
+	- Trebuie de stabilit un tip de output.
+
+Sfat de unde sa ne luam documente:
+	Librarie pub med:
+		- colectie de documente de medicina
+		- format pdf
+		- sunt texte in limba romana
+
+Intrebari profesor:
+	- Bold, italic - de marcat, probabil o sa conteze pentru modulul 2.
+	- cuprins: majoritatea cuvintelor ar fi termeni
+	- bulleturi: nu neaparat sa iasa propozitii de acolo
+	- se poate adauga autoamat text in cazul in care "->" inseamna "este" mereu la fiecare aparitie. Posibil sa ne complicam inutil.
+	- Notatii stiintifice: puteri, fractii, formule mai complicate. - nu trebuie
+	- Note de subsol: ne uitam daca chiar conteza sau nu si decidem noi.
