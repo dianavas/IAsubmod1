@@ -1,0 +1,26 @@
+Sfaturi profesor:
+	- nu trebuie precizii, o solutie doar care merge
+	- sa putem evalua sistemul per total
+	- mergem pe situatia ideala:
+		- adnotator merge perfect
+		- informatii in forma ideala
+		- apoi ne gandim la exceptii
+	- dupa ce am terminat:
+		- alte situatii
+		- imbunatatiri
+		
+Impartirea submodulului nostru, ceea ce a zis profesorul:
+0. Textul este in limba romana
+1. Extragere continut textual
+2. Reparare encoding
+3. Fixare diacritice automat
+4. Text curatat si reparat
+	- trecut prin adnotatoare: pos tagger, lematizer
+	- ar trebui sa ofere:
+		- tokenuri
+		- propozitii
+		- parte de vorbire
+		- grupuri nominale
+		- rezolutia anaforei
+5. Despartirea in silabe
+6. trebuie sa oferim la modulul 2 textul gata adnotat.
