@@ -1,0 +1,16 @@
+Sugestii:
+  0. In loc de NLTK sa folosim NLP deoarece contine prelucrari specifice pentru limba romana
+    Link: http://nlptools.info.uaic.ro/Resources.jsp
+    Ne intereseaza: PoS Tagger for Romanian
+                    NP Chunker for Romanian
+                    Dependency Parser for Romanian
+                    Multilingual Anaphora Resolution
+   1. Semnalarea relatiilor semantice via World Net
+    Link: http://www.racai.ro/tools/text/
+    Ne intereseaza : RoWordNet (API inclus) (Java)
+    Ideea: Modulul nostru interpreteaza superficial textul si putem descoperi relatiile semantice fara a intepreta in adancime textul(ramanem tot la suprafata)
+           Vom cauta in World Net substantivele dintr-o propozitie, vom primi lista de Synseturi pt fiecare cuvant. Daca exista relatii intre listele de Synseturi, acestea trebuie marcate cumva.
+           Tipuri de relatii: hiperonimie
+           
+Important: Submodulul nostru va fi notat relativ la numarul de informatii pe care il furnizam la submodulul 2!(Fie ca le e de folos in final sau nu)
+          --> The more the merrier
