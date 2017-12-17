@@ -15,6 +15,7 @@ Tool-uri de downloadat
 - Deschideti un command line ca administrator
 
 - Tastati comanda:
+
 	.. code-block:: bash
 	
 		pip install nltk
@@ -26,7 +27,7 @@ Tool-uri de downloadat
 	
 	.. code-block:: bash
 			
-			python
+		python
 	
 	ca sa va deschida python la linia de comanda.
 
@@ -46,6 +47,7 @@ Tool-uri de downloadat
 ----------------------------------------
 
 - Rulati comanda:
+	
 	.. code-block:: bash
 	
 		pip install treetaggerwrapper
@@ -60,29 +62,29 @@ Tool-uri de downloadat
 .. code-block:: python
 			
 	"ro": {
-			"encoding": "utf-8",
-			"tagparfile": "romanian-utf8.par",
-			"abbrevfile": "romanian-abbreviations",
-			"pchar": ALONEMARKS + "'",
-			"fchar": ALONEMARKS + "'",
-			"pclictic": "",
-			"fclictic": "",
-			"number": NUMBER_EXPRESSION,
-			"dummysentence": "Ana are mere. Câte mere are"
+		"encoding": "utf-8",
+		"tagparfile": "romanian-utf8.par",
+		"abbrevfile": "romanian-abbreviations",
+		"pchar": ALONEMARKS + "'",
+		"fchar": ALONEMARKS + "'",
+		"pclictic": "",
+		"fclictic": "",
+		"number": NUMBER_EXPRESSION,
+		"dummysentence": "Ana are mere. Câte mere are"
 							 "Ana?",
-			"replurlexp": 'sustituir-url>',
-			"replemailexp": 'sustituir-email',
-			"replipexp": 'sustituir-ip',
-			"repldnsexp": 'sustituir-dns'
-		}
+		"replurlexp": 'sustituir-url>',
+		"replemailexp": 'sustituir-email',
+		"replipexp": 'sustituir-ip',
+		"repldnsexp": 'sustituir-dns'
+	}
 
 Status implementare curenta
 --------------------------
 
-- Tokenizer - nltk
-- Post Tagger - TreeTagger
-- Lematizer - TreeTagger
-- NP Chuncker - nonne
+- Tokenizer - `NLTK`_
+- Post Tagger - `TreeTagger`_
+- Lematizer - `TreeTagger`_
+- NP Chuncker - none
 - Dependency parser - none
 - Multilingual Anaphora Resolution - none
 - RoWordNet - none
