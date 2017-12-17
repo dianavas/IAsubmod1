@@ -2,7 +2,6 @@ from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk.stem import WordNetLemmatizer,SnowballStemmer
 import utils as u
 import re
-import time
 JOBSCOUNT = 8
 
 data, document = u.read_document()
@@ -24,7 +23,6 @@ def lematizer_word(word):
 
 # tagger sync
 def tagger_sync(data):
-    start = time.time()
     import treetaggerwrapper
     tagger = treetaggerwrapper.TreeTagger(TAGLANG='ro')
     tags = tagger.tag_text(data)
@@ -35,11 +33,9 @@ def tagger_sync(data):
         dt = re.split(r'\t+', tag)
         t = {"word":dt[0], "pos":dt[1], "lemma":dt[2]}
         result.append(t)
-    print("Finished after {:0.2f} seconds elapsed".format(time.time() - start))
     return result
 
 def tagger_async(data, n = None):
-    start = time.time()
     import treetaggerpoll
 
     # Note: print() have been commented, you may uncomment them to see progress.
@@ -58,8 +54,14 @@ def tagger_async(data, n = None):
         r.wait_finished()
 
     p.stop_poll()
-    print("Finished after {:0.2f} seconds elapsed".format(time.time() - start))
+
+def tokenize(data):
+    return sent_tokenize(data)
 
 if __name__ == '__main__':
-    print(tagger_sync(document))
+    sents = tokenize(document)
+    result = []
+    for sent in sents:
+        result.append(tagger_sync(sent))
+    print(result)
     # tagger_async(document, 8)
