@@ -1,20 +1,38 @@
-# Pentru a extrage textul dintr-un document pdf vom folosi libraria PyPDF2 pt Python3.6.2
-# pentru a instala libraria PyPDF2 vom urma urmatorii pasi:
-# 1. deschid cmd ca administrator
-# 2. rulez comanda pip install PyPDF2
-
-import PyPDF2
+# Install Python 2.4 or newer. (Python 3 is not supported.)
+# Download the PDFMiner source. http://www.unixuser.org/~euske/python/pdfminer/index.html#source
+# Unpack it.
+# Run setup.py to install: -> python setup.py install
 
 
-# vom crea o functie care primeste ca parametru calea fisierului pdf, si va scrie continutul intr-un fisier text.
+from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
+from pdfminer.converter import TextConverter
+from pdfminer.layout import LAParams
+from pdfminer.pdfpage import PDFPage
+from cStringIO import StringIO
 
-def pdf_to_text(file_name):
-    pdf_file = open(file_name, 'rb')
+
+def pdf_to_text(path):
+    rsrcmgr = PDFResourceManager()
+    retstr = StringIO()
+    codec = 'utf-8'
+    laparams = LAParams()
+    device = TextConverter(rsrcmgr, retstr, codec=codec, laparams=laparams)
+    fp = file(path, 'rb')
+    interpreter = PDFPageInterpreter(rsrcmgr, device)
+    password = ""
+    maxpages = 0
+    caching = True
+    pagenos = set()
+
+    for page in PDFPage.get_pages(fp, pagenos, maxpages=maxpages, password=password, caching=caching,
+                                  check_extractable=True):
+        interpreter.process_page(page)
+
+    text = retstr.getvalue()
     file_to_write = open("testfile.txt", "w")
-    pdf_reader = PyPDF2.PdfFileReader(pdf_file)
+    file_to_write.write(text)
 
-    for i in range(0, pdf_reader.numPages):
-        file_to_write.write(pdf_reader.getPage(i).extractText())
-        # file_to_write.write(pdf_reader.getPage(i).getContext())
-
-# print(pdf_to_text('C:\\Users\\ionut\\Documents\\GitHub\\IAsubmod1\\Source Code\\Text from pdf and doc\\Curs-1.pdf'))
+    fp.close()
+    device.close()
+    retstr.close()
+    file_to_write.close()
