@@ -11,7 +11,7 @@ from pdfminer.pdfpage import PDFPage
 from cStringIO import StringIO
 
 
-def convert_pdf_to_txt(path):
+def pdf_to_text(path):
     rsrcmgr = PDFResourceManager()
     retstr = StringIO()
     codec = 'utf-8'

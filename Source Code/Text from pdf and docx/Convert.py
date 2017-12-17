@@ -14,4 +14,4 @@ def ConvertFile(file_path):
     else:
         return exit(1)
 
-# ConvertFile('calea fisierului')
+ConvertFile('C:\\Users\\ionut\\Documents\\GitHub\\IAsubmod1\\Sample Files\\GeneralBiology.pdf')
