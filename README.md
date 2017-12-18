@@ -12,3 +12,4 @@
 * Turcu Nicusor
 * Ulinici Cristina
 * Vasilache Diana
+* Marusic Iurie
