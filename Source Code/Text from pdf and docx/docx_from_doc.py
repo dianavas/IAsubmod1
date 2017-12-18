@@ -7,6 +7,7 @@
 
 
 import win32com.client
+import os
 
 
 def doc_to_docx(filePath):
