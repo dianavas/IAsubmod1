@@ -1,4 +1,4 @@
-import sys, os
+import sys, os, html
 
 
 def read_document(file_name="Document.txt"):
@@ -18,10 +18,11 @@ def read_document(file_name="Document.txt"):
 
 def get_result(server_response):
     result = \
-    str(server_response.content.decode(server_response.apparent_encoding)).split("<return>")[1].split("</return>")[0]
+        str(server_response.content.decode(server_response.apparent_encoding)).split("<return>")[1].split("</return>")[
+            0]
     if result == "":
         result = "No result from server :("
-    return result
+    return html.unescape(result)
 
 
 def validate_language(language):
