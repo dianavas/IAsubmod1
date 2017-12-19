@@ -4,10 +4,10 @@ def read_document(file_name="Document.txt"):
     with open(file_name, 'r', encoding='utf-8') as f:
         content = f.readlines()
     for cont in content:
-        if(len(cont) == 1):
+        if (len(cont) == 1):
             lis.append(0)
-        else :
+        else:
             lis.append(len(cont))
         str += cont.replace('\n', ' ')
     str.replace('\n', ' ')
-    return lis,str
+    return lis, str
