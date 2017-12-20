@@ -67,12 +67,13 @@ def solve_links_manual(xml):
     for s in sentences:
         words = s.getElementsByTagName("W")
         for w in words:
-            if "POS" in w.attributes and (
-                    w.attributes["POS"].value == "NOUN" or w.attributes["POS"].value == "PRONOUN"):
-                search_list.append(w)
-    # for s in search_list:
-    #     print(s.attributes["POS"].value)
-
+            try:
+                if "POS" in w.attributes and (
+                        w.attributes["POS"].value == "NOUN" or w.attributes["POS"].value == "PRONOUN"):
+                    search_list.append(w)
+            except Exception as e:
+                # nothing
+                print(str(e))
     anaphoras = []
 
     for i in range(0, len(search_list)):

@@ -1,5 +1,5 @@
-import requests, html
-from utils import get_result
+import requests
+from utils import get_result, escape
 
 wsdl_file = 'http://nlptools.info.uaic.ro/WebFdgRo/FdgParserRoWS?wsdl'
 headers = {'content-type': 'text/xml'}
@@ -33,7 +33,7 @@ def parse_pos_tagget_text(text):
 
 
 def parse_text(text):
-    text = html.escape(text)
+    text = escape(text)
     print("Creating request")
     body = rqt_parse_text.format(text=text).encode("utf-8")
     print("Request sent to server")

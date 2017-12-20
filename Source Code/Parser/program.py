@@ -17,6 +17,9 @@ def apply_parser_v2(document):
     return anaphora_resolution.solve_links_manual(data)
 
 if __name__ == '__main__':
+    import sys
+    reload(sys)
+    sys.setdefaultencoding('utf8')
     data, document = u.read_document()
     print(apply_parser_v2(document))
 

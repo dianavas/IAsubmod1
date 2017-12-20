@@ -1,10 +1,23 @@
-import sys, os, html
+import sys, os
 
+try:
+    from html import unescape  # python 3.4+
+except ImportError:
+    try:
+        from html.parser import HTMLParser  # python 3.x (<3.4)
+    except ImportError:
+        from HTMLParser import HTMLParser  # python 2.x
+    unescape = HTMLParser().unescape
+
+try:
+    from html import escape  # python 3.x
+except ImportError:
+    from cgi import escape  # python 2.x
 
 def read_document(file_name="Document.txt"):
     str = ""
     lis = []
-    with open(file_name, 'r', encoding='utf-8') as f:
+    with open(file_name, 'r') as f:
         content = f.readlines()
     for cont in content:
         if (len(cont) == 1):
@@ -22,7 +35,7 @@ def get_result(server_response):
             0]
     if result == "":
         result = "No result from server :("
-    return html.unescape(result)
+    return unescape(result)
 
 
 def validate_language(language):
