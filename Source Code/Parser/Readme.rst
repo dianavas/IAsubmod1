@@ -8,6 +8,11 @@ Tool-uri de downloadat
 
 - `NLTK`_
 - `TreeTagger`_
+- biblioteca requests(trebuie rulat in cmd ca administrator):
+
+    .. code-block:: bash
+
+		pip install requests
 
 `NLTK`_
 ----------------------------------------
