@@ -6,8 +6,8 @@ Parser
 Tool-uri de downloadat
 ----------------------------------------
 
-- `NLTK`_
-- `TreeTagger`_
+- `NLTK`_ - momentan este optional
+- `TreeTagger`_ - momentan este optional
 - biblioteca requests(trebuie rulat in cmd ca administrator):
 
     .. code-block:: bash
