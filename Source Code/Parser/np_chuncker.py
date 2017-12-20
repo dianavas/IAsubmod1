@@ -25,7 +25,7 @@ rqe_chunck_text = """<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org
 
 def chunck_tagget_text(xml):
     print("Creating request")
-    body = rqe_chunck_tagget_text.format(xml=xml)
+    body = rqe_chunck_tagget_text.format(xml=xml).encode("utf-8")
     print("Request sent to server")
     response = requests.post(wsdl_file, data=body, headers=headers)
     print("Response received")
@@ -34,7 +34,7 @@ def chunck_tagget_text(xml):
 
 def chunck_text(text):
     print("Creating request")
-    body = rqe_chunck_text.format(text=text)
+    body = rqe_chunck_text.format(text=text).encode("utf-8")
     print("Request sent to server")
     response = requests.post(wsdl_file, data=body, headers=headers)
     print("Response received")

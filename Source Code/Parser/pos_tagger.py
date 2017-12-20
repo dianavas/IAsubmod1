@@ -53,7 +53,7 @@ def parse_sentence_text(text):
 
 def parse_sentence_xml(xml):
     print("Creating request")
-    body = rqe_parse_sentence_xml.format(xml=xml)
+    body = rqe_parse_sentence_xml.format(xml=xml).encode("utf-8")
     print("Request sent to server")
     response = requests.post(wsdl_file, data=body, headers=headers)
     print("Response received")
@@ -62,7 +62,7 @@ def parse_sentence_xml(xml):
 
 def parse_text_text(text):
     print("Creating request")
-    body = rqe_parse_text_text.format(text=text)
+    body = rqe_parse_text_text.format(text=text).encode("utf-8")
     print("Request sent to server")
     response = requests.post(wsdl_file, data=body, headers=headers)
     print("Response received")
@@ -71,7 +71,7 @@ def parse_text_text(text):
 
 def parse_text_xml(xml):
     print("Creating request")
-    body = rqe_parse_text_xml.format(xml=xml)
+    body = rqe_parse_text_xml.format(xml=xml).encode("utf-8")
     print("Request sent to server")
     response = requests.post(wsdl_file, data=body, headers=headers)
     print("Response received")

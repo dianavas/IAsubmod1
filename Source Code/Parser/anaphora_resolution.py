@@ -28,7 +28,7 @@ rqt_solve_links_xml = """<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap
 def solve_links(text, language="ro"):
     validate_language(language)
     print("Creating request")
-    body = rqt_solve_links.format(text=text, language=language)
+    body = rqt_solve_links.format(text=text, language=language).encode("utf-8")
     print("Request sent to server")
     response = requests.post(wsdl_file, data=body, headers=headers)
     print("Response received")
@@ -38,8 +38,54 @@ def solve_links(text, language="ro"):
 def solve_links_xml(xml, language="ro"):
     validate_language(language)
     print("Creating request")
-    body = rqt_solve_links_xml.format(xml=xml, language=language)
+    body = rqt_solve_links_xml.format(xml=xml, language=language).encode("utf-8")
     print("Request sent to server")
     response = requests.post(wsdl_file, data=body, headers=headers)
     print("Response received")
     return get_result(response)
+
+
+def match(pronoun, noun):
+    if noun.attributes["POS"].value != "NOUN":
+        return False
+    if "Gender" not in noun.attributes or "Gender" not in pronoun.attributes:
+        return False
+    if "Number" not in noun.attributes or "Number" not in pronoun.attributes:
+        return False
+    if pronoun.attributes["Gender"].value != noun.attributes["Gender"].value:
+        return False
+    if pronoun.attributes["Number"].value != noun.attributes["Number"].value:
+        return False
+    return True
+
+
+def solve_links_manual(xml):
+    from xml.dom import minidom
+    xmldoc = minidom.parseString(xml)
+    sentences = xmldoc.getElementsByTagName("S")
+    search_list = []
+    for s in sentences:
+        words = s.getElementsByTagName("W")
+        for w in words:
+            if "POS" in w.attributes and (
+                    w.attributes["POS"].value == "NOUN" or w.attributes["POS"].value == "PRONOUN"):
+                search_list.append(w)
+    # for s in search_list:
+    #     print(s.attributes["POS"].value)
+
+    anaphoras = []
+
+    for i in range(0, len(search_list)):
+        if (search_list[i].attributes["POS"].value == "PRONOUN"):
+            for j in reversed(range(0, i)):
+                if match(search_list[i], search_list[j]):
+                    anaphoras.append((search_list[i].attributes["id"].value, search_list[j].attributes["LEMMA"].value))
+                    search_list[i].setAttribute("ANAPHORA", search_list[j].attributes["LEMMA"].value)
+                    break
+
+    for a in anaphoras:
+        data = "id=\"" + a[0] + "\""
+        xml = xml[:xml.index(data) + len(data)] + " ANAPHORA=\"" + a[1] + "\"" + xml[xml.index(data) + len(
+            data):]
+
+    return xml
