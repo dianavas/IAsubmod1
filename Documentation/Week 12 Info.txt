@@ -1,0 +1,8 @@
+- mai putine atribute
+- lemma, pos, anaphora, id
+- de includ in id identificatorul documentului. ca sa fie distincte pentru toate documentele
+- nu trebuie de pastrat denumirea originala.
+	txt1.txt - primul fisier 
+	txt1.xml - varianta xml: id-uri cu format txt1 in fata: txt1.1.1 
+- trebuie de trimis si varianta txt.
+- de scos diacriticile din leme, inainte sa livram output-ul.
