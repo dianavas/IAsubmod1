@@ -2,5 +2,7 @@ SNP este partea sistemului nervos formată din neuronii și nervii din afara SNC
 
 SNP se împarte la rândul său în două componente:
 
+Ana are mere multe. Ea are si pere.
+
 Sistemul nervos somatic, care este asociat cu controlul voluntar al mișcărilor prin acțiunea mușchilor scheletici, cât și recepția stimulilor externi (în cazul stimulilor termici, stimulilor mecanici etc.). Sistemul nervos somatic este format din fibre aferente, care duc informațiile de la surse externe spre SNC, și fibre eferente, care duc impulsurile nervoase de la SNC la mușchi.
 Sistemul nervos vegetativ sau autonom gestionează acțiunile care nu se află sub control conștient. El controlează de exemplu funcțiile vitale ca respirația și bătăile inimii, dilatarea și constricția pupilelor, digestia etc. Se împarte în sistemul nervos simpatic și cel parasimpatic.

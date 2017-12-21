@@ -48,9 +48,9 @@ def solve_links_xml(xml, language="ro"):
 def match(pronoun, noun):
     if noun.attributes["POS"].value != "NOUN":
         return False
-    if "Gender" not in noun.attributes or "Gender" not in pronoun.attributes:
+    if not noun.hasAttribute("Gender") or not pronoun.hasAttribute("Gender"):
         return False
-    if "Number" not in noun.attributes or "Number" not in pronoun.attributes:
+    if not noun.hasAttribute("Number") or not pronoun.hasAttribute("Number"):
         return False
     if pronoun.attributes["Gender"].value != noun.attributes["Gender"].value:
         return False
@@ -67,13 +67,9 @@ def solve_links_manual(xml):
     for s in sentences:
         words = s.getElementsByTagName("W")
         for w in words:
-            try:
-                if "POS" in w.attributes and (
-                        w.attributes["POS"].value == "NOUN" or w.attributes["POS"].value == "PRONOUN"):
-                    search_list.append(w)
-            except Exception as e:
-                # nothing
-                print(str(e))
+            if w.hasAttribute("POS") and (
+                            w.attributes["POS"].value == "NOUN" or w.attributes["POS"].value == "PRONOUN"):
+                search_list.append(w)
     anaphoras = []
 
     for i in range(0, len(search_list)):
