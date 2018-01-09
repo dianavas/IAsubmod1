@@ -1,0 +1,227 @@
+Create an ETD Using Adobe Acrobat     
+Lesson 2: Create a PDF File
+
+Create a PDF File
+
+Now that you’ve seen what an ETD looks like and how to browse the contents, it’s 
+time to learn how to convert your own thesis or dissertation into a PDF ﬁle. There 
+are several different options for doing this, and all require that you have a copy 
+of Adobe® Acrobat® Standard or Professional installed on your computer. Adobe 
+Reader, which is freely available for downloading from many Internet sites, can only 
+be used to read a PDF ﬁle. You cannot use it to create a PDF ﬁle. 
+
+ 
+Tip
+Exercise 1 and 
+Exercise 2 produce  
+the same result. 
+Choose the one that 
+works best for you.
+
+In this lesson, you will learn how to: 
+
+1.  Create a PDF using PDFMaker from within Microsoft® Word
+
+2.  Create a PDF using the Print command
+
+3.  Combine multiple ﬁles
+
+1
+
+Create an ETD Using Adobe Acrobat     
+Lesson 2: Create a PDF File
+
+Exercise 1 – Create a PDF Using PDFMaker
+
+In this exercise, you will learn how to use PDFMaker to convert a  
+Microsoft Word document to a PDF ﬁle.
+ 
+
+1.  Start Microsoft Word and open your thesis or dissertation.
+
+View Demo 
+
+2.  Look at the toolbars at the top of the window. Notice there are two areas 
+
+ 
+
+related to Acrobat PDFMaker: 
+ 
+ 
+
+• The Adobe PDF and Acrobat Comment menus 
+• The Acrobat icons 
+
+ 
+
+ 
+
+3.  Click the Adobe PDF menu and choose Change Conversion Settings.
+
+4.  The Adobe PDFMaker dialog box opens. It contains four tabs with a 
+
+number of different options. 
+
+5.  To create an ETD, choose Standard from the Conversion Settings  
+
+pop-up menu on the Settings tab. 
+
+6.  The View Adobe PDF results option should also be checked to ensure 
+
+that the converted ﬁle will display automatically. Next, look under the  
+Application Settings heading and verify that the Add Links To Adobe 
+PDF option is checked so that any hyperlinks in your document will be 
+automatically converted to Acrobat links. 
+
+ 
+Tip
+The Acrobat 7 installer 
+scans your system for 
+a copy of Microsoft 
+Ofﬁce 98 or later, and 
+if found, automatically 
+loads PDFMaker. This 
+is the macro that 
+allows you to create 
+PDFs from Word as 
+well as Excel and 
+PowerPoint. 
+
+If you do not see 
+Acrobat PDFMaker in  
+Microsoft Word, go 
+to Exercise 2 to use 
+the Print command to 
+create a PDF ﬁle.  
+
+ 
+Tip
+The default settings 
+will create an ETD. 
+Click the Restore 
+Defaults button to 
+make sure that the 
+defaults are selected 
+or click the Advanced 
+Settings button and 
+click the appropriate 
+tabs to make sure 
+fonts are embedded or 
+to change image or  
+color settings.
+
+2
+
+Create an ETD Using Adobe Acrobat     
+Lesson 2: Create a PDF File
+
+7.  Click OK to save your settings. 
+
+8.  You are ready to convert your thesis or dissertation to an Acrobat PDF 
+
+ﬁle. Click the Adobe PDF menu and choose Convert To Adobe PDF, or,  
+alternatively, click the        Convert To Adobe PDF button. 
+
+9.  When prompted, type a ﬁle name (or accept the default name suggested 
+
+by Microsoft Word), and click Save. 
+
+10.  When the conversion is complete, your document will automatically open 
+
+in Acrobat, and you can check to see how it looks.
+
+Continue to Exercise 2
+
+3
+
+Create an ETD Using Adobe Acrobat     
+Lesson 2: Create a PDF File
+
+Exercise 2 – Create a PDF Using the Print Command
+
+In this exercise, you will learn how to use the Print command to convert  
+a Microsoft Word document to a PDF ﬁle. If you use a different word  
+processor, you should easily be able to duplicate the steps described below.  
+Your application must simply be capable of producing printed output.
+
+View Demo
+
+1.  Start Microsoft Word and open your thesis or dissertation.
+ 
+2.  Choose Print from the File menu.
+
+3.  The Print dialog box opens. Choose Adobe PDF from the pop-up menu 
+
+under Printer.
+
+4.  To set your print options, click the Properties button.
+
+5.  Click the Adobe PDF Settings tab. Notice that it contains a number of 
+
+different settings.
+
+6.  For an ETD, choose Standard from the Default Settings menu.
+
+7.  Verify that the View Adobe PDF results option is checked so that the 
+
+converted ﬁle will display automatically.
+
+4
+
+Create an ETD Using Adobe Acrobat     
+Lesson 2: Create a PDF File
+
+8.  Click OK in the Document Properties dialog box to save your settings. 
+
+9.  To continue to convert your dissertation or thesis to an Acrobat PDF ﬁle, 
+
+click OK in the Print dialog box.
+
+10.  When prompted, type a ﬁle name (or accept the default name suggested 
+
+by Word). Note that the default ﬁle extension is .pdf. Click Save.
+
+11.  When the conversion is complete, your document will automatically open 
+
+in Acrobat, and you can check to see how it looks.
+
+ 
+Continue to Exercise 3
+
+5
+
+Create an ETD Using Adobe Acrobat     
+Lesson 2: Create a PDF File
+
+Exercise 3 – Combine Multiple Files 
+
+In this exercise you will see how to combine two or more PDF ﬁles  
+into a single document. By using a single command you can quickly  
+combine multiple ﬁles.
+
+View Demo
+
+1.  Using the instructions in Exercise 1 or 2, convert all the documents  
+
+you want to merge to PDF ﬁles.
+
+2.  Start Adobe Acrobat.
+
+3.  From the File menu, choose Create PDF, then choose From  
+
+Multiple Files.
+
+4.  A new dialog box opens so that you can add the ﬁles you want to 
+
+combine. Click the Browse button, navigate to each ﬁle, and click  
+the Add button to select it.
+
+5.  When you have listed all the ﬁles to be included, use the Move Up and 
+Move Down buttons to rearrange the order of the ﬁles or the Remove 
+button to delete a particular ﬁle. 
+
+6.  To merge the selected documents, click OK.
+
+6
+
+
