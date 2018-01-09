@@ -39,7 +39,7 @@ class MyTestCase(unittest.TestCase):
                                     'files/xmlGenerator/xml_0001_Ncms-n_result.xml')
         Test_xmlGenerator.createXML([[{'word': 'baiat', 'pos': 'Ncms-n', 'lemma': 'baiat'}]],
                                     'files/xmlGenerator/xml_0001_Ncms-n_expected.xml')
-        self.assertTrue(FilesAreEqual.compareXMLs("files/xmlGenerator/xml_0001_Ncms-n_result.xml",
+        self.assertTrue(FilesAreEqual.compareFiles("files/xmlGenerator/xml_0001_Ncms-n_result.xml",
                                                   "files/xmlGenerator/xml_0001_Ncms-n_expected.xml"))
 
     # Test Substantiv, comun, masculin, plural, fara case, Nu definitie
@@ -48,7 +48,7 @@ class MyTestCase(unittest.TestCase):
                                     'files/xmlGenerator/xml_0002_Ncmp-n_result.xml')
         Test_xmlGenerator.createXML([[{'word': 'baieti', 'pos': 'Ncmp-n', 'lemma': 'baiat'}]],
                                     'files/xmlGenerator/xml_0002_Ncmp-n_expected.xml')
-        self.assertTrue(FilesAreEqual.compareXMLs("files/xmlGenerator/xml_0002_Ncmp-n_result.xml",
+        self.assertTrue(FilesAreEqual.compareFiles("files/xmlGenerator/xml_0002_Ncmp-n_result.xml",
                                                   "files/xmlGenerator/xml_0002_Ncmp-n_expected.xml"))
 
     # Test Substantiv, comun, feminin, singular, fara case, Nu definitie
@@ -57,7 +57,7 @@ class MyTestCase(unittest.TestCase):
                                         'files/xmlGenerator/xml_0003_Ncfs-n_result.xml')
         Test_xmlGenerator.createXML([[{'word': 'casa', 'pos': 'Ncfs-n', 'lemma': 'casa'}]],
                                         'files/xmlGenerator/xml_0003_Ncfs-n_expected.xml')
-        self.assertTrue(FilesAreEqual.compareXMLs("files/xmlGenerator/xml_0003_Ncfs-n_result.xml",
+        self.assertTrue(FilesAreEqual.compareFiles("files/xmlGenerator/xml_0003_Ncfs-n_result.xml",
                                                       "files/xmlGenerator/xml_0003_Ncfs-n_expected.xml"))
 
     # Test Substantiv, comun, feminin, plural, fara case, Nu definitie
@@ -66,14 +66,14 @@ class MyTestCase(unittest.TestCase):
                                         'files/xmlGenerator/xml_0004_Ncfp-n_result.xml')
         Test_xmlGenerator.createXML([[{'word': 'case', 'pos': 'Ncfp-n', 'lemma': 'casa'}]],
                                         'files/xmlGenerator/xml_0004_Ncfp-n_expected.xml')
-        self.assertTrue(FilesAreEqual.compareXMLs("files/xmlGenerator/xml_0004_Ncfp-n_result.xml",
+        self.assertTrue(FilesAreEqual.compareFiles("files/xmlGenerator/xml_0004_Ncfp-n_result.xml",
                                                       "files/xmlGenerator/xml_0004_Ncfp-n_expected.xml"))
 
     # Test Substantiv, propriu, fara gen, singular, fara case, Nu definitie
     def test_Noun_proper___singular___No(self):
         Test_xmlGenerator.createXML([[ { 'word': 'Romania', 'pos': 'Np-s-n', 'lemma': 'Romania' } ]], 'files/xmlGenerator/xml_0000_Np-s-n_result.xml')
         Test_xmlGenerator.createXML([[ { 'word': 'Romania', 'pos': 'Np-s-n', 'lemma': 'Romania'} ]], 'files/xmlGenerator/xml_0000_Np-s-n_expected.xml')
-        self.assertTrue(FilesAreEqual.compareXMLs("files/xmlGenerator/xml_0000_Np-s-n_result.xml",
+        self.assertTrue(FilesAreEqual.compareFiles("files/xmlGenerator/xml_0000_Np-s-n_result.xml",
                                                   "files/xmlGenerator/xml_0000_Np-s-n_expected.xml"))
 
 

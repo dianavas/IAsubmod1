@@ -1,7 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d115bed3-ee8d-458a-8888-c62d43549ea4" name="Default" comment="" />
+    <list default="true" id="d115bed3-ee8d-458a-8888-c62d43549ea4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Parser/.idea/Parser.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Parser/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Parser/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Parser/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Parser/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Parser/Document.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Parser/Readme.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Parser/Screenshot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Parser/anaphora_resolution.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Parser/fdg_parser_ro.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Parser/np_chuncker.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Parser/pos_tagger.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Parser/program.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Parser/stations.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Parser/taggers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Parser/tokenizers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Parser/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Text from pdf and docx/.idea/Text from pdf and doc.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Text from pdf and docx/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Text from pdf and docx/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Text from pdf and docx/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Text from pdf and docx/Convert.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Text from pdf and docx/Exemple/Example1/FisierText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Text from pdf and docx/Exemple/Example1/sample.doc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Text from pdf and docx/Exemple/Example1/sample.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Text from pdf and docx/Exemple/Example2/FisierText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Text from pdf and docx/Exemple/Example2/edited-before.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Text from pdf and docx/Exemple/Example2/edited.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Text from pdf and docx/Exemple/Exemplu_Final/After/doc2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Text from pdf and docx/Exemple/Exemplu_Final/After/lesson2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Text from pdf and docx/Exemple/Exemplu_Final/After/sample.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Text from pdf and docx/Exemple/Exemplu_Final/After/sample.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Text from pdf and docx/Exemple/Exemplu_Final/Before/doc2.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Text from pdf and docx/Exemple/Exemplu_Final/Before/lesson2.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Text from pdf and docx/Exemple/Exemplu_Final/Before/sample.doc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Text from pdf and docx/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Text from pdf and docx/delete_headersAndFooters_fromDocAndDocx.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Text from pdf and docx/docx_from_doc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Text from pdf and docx/testfile.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Text from pdf and docx/text_from_docx.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Text from pdf and docx/text_from_pdf.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/Text from pdf and docx/text_from_text.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/XMLGenerator/.idea/XMLGenerator.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/XMLGenerator/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/XMLGenerator/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/XMLGenerator/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/XMLGenerator/POSroLib.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/XMLGenerator/output.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Source Code/XMLGenerator/parse.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/files/textExtractor/txt_T2b_expected.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/files/textExtractor/txt_T2b_result.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/python-testing.iml" afterPath="$PROJECT_DIR$/.idea/python-testing.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FilesAreEqual.py" afterPath="$PROJECT_DIR$/FilesAreEqual.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TextExtractor_UnitTests.py" afterPath="$PROJECT_DIR$/TextExtractor_UnitTests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmlGenerator_UnitTests.py" afterPath="$PROJECT_DIR$/xmlGenerator_UnitTests.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +73,8 @@
       <file leaf-file-name="FilesAreEqual.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FilesAreEqual.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            <state relative-caret-position="0">
+              <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -24,8 +83,8 @@
       <file leaf-file-name="Test_xmlGenerator.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test_xmlGenerator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+            <state relative-caret-position="17">
+              <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -34,8 +93,8 @@
       <file leaf-file-name="xmlGenerator_UnitTests.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/xmlGenerator_UnitTests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="66" column="44" lean-forward="true" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
+            <state relative-caret-position="867">
+              <caret line="79" column="26" lean-forward="false" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
                 <element signature="e#63#89#0" expanded="false" />
@@ -47,8 +106,8 @@
       <file leaf-file-name="TextExtractor_UnitTests.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TextExtractor_UnitTests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="89" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="89" />
+            <state relative-caret-position="221">
+              <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -74,6 +133,9 @@
       <replace>files/textExtractor/txt</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -84,20 +146,24 @@
         <option value="$PROJECT_DIR$/text_extractor/text_from_pdf.py" />
         <option value="$PROJECT_DIR$/compareFile.py" />
         <option value="$PROJECT_DIR$/../Source Code/XMLGenerator/parse.py" />
-        <option value="$PROJECT_DIR$/TextExtractor_UnitTests.py" />
         <option value="$PROJECT_DIR$/xmlGenerator_UnitTest.py" />
         <option value="$PROJECT_DIR$/files/xmlGenerator_UnitTests.py" />
         <option value="$PROJECT_DIR$/Test_xmlGenerator.py" />
         <option value="$PROJECT_DIR$/xmlGenerator_UnitTests.py" />
+        <option value="$PROJECT_DIR$/../Source Code/Text from pdf and docx/text_from_pdf.py" />
+        <option value="$PROJECT_DIR$/../Source Code/Text from pdf and docx/text_from_docx.py" />
+        <option value="$PROJECT_DIR$/FilesAreEqual.py" />
+        <option value="$PROJECT_DIR$/TextExtractor_UnitTests.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="587" />
-    <option name="y" value="-28" />
+    <option name="x" value="359" />
+    <option name="y" value="-14" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -114,7 +180,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,7 +196,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="C:/Python27/python.exe" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -150,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.xmlGenerator_UnitTests">
+  <component name="RunManager" selected="Python.TextExtractor_UnitTests">
     <configuration name="Test_xmlGenerator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -185,23 +255,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="parse" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Source Code/XMLGenerator" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python-testing" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Source Code/XMLGenerator/parse.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <configuration name="text_from_docx" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -209,12 +262,29 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/text_extractor" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Source Code/Text from pdf and docx" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python-testing" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/text_extractor/text_from_docx.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Source Code/Text from pdf and docx/text_from_docx.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="text_from_pdf" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Source Code/Text from pdf and docx" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-testing" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Source Code/Text from pdf and docx/text_from_pdf.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -237,19 +307,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.text_from_docx" />
-      <item index="1" class="java.lang.String" itemvalue="Python.TextExtractor_UnitTests" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Test_xmlGenerator" />
-      <item index="3" class="java.lang.String" itemvalue="Python.parse" />
-      <item index="4" class="java.lang.String" itemvalue="Python.xmlGenerator_UnitTests" />
+      <item index="0" class="java.lang.String" itemvalue="Python.TextExtractor_UnitTests" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Test_xmlGenerator" />
+      <item index="2" class="java.lang.String" itemvalue="Python.xmlGenerator_UnitTests" />
+      <item index="3" class="java.lang.String" itemvalue="Python.text_from_pdf" />
+      <item index="4" class="java.lang.String" itemvalue="Python.text_from_docx" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.xmlGenerator_UnitTests" />
-        <item index="1" class="java.lang.String" itemvalue="Python.TextExtractor_UnitTests" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Test_xmlGenerator" />
-        <item index="3" class="java.lang.String" itemvalue="Python.parse" />
-        <item index="4" class="java.lang.String" itemvalue="Python.text_from_docx" />
+        <item index="0" class="java.lang.String" itemvalue="Python.TextExtractor_UnitTests" />
+        <item index="1" class="java.lang.String" itemvalue="Python.text_from_docx" />
+        <item index="2" class="java.lang.String" itemvalue="Python.text_from_pdf" />
+        <item index="3" class="java.lang.String" itemvalue="Python.xmlGenerator_UnitTests" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Test_xmlGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -272,13 +342,13 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16617863" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16617863" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5031546" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33438486" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27444795" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -300,6 +370,43 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/FilesAreEqual.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_xmlGenerator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmlGenerator_UnitTests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="66" column="44" lean-forward="true" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#63#89#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TextExtractor_UnitTests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FilesAreEqual.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -481,36 +588,68 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xmlGenerator_UnitTest.py" />
+    <entry file="file://$PROJECT_DIR$/Test_xmlGenerator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="250" column="0" lean-forward="false" selection-start-line="250" selection-start-column="0" selection-end-line="250" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Source Code/Text from pdf and docx/text_from_text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Source Code/Text from pdf and docx/text_from_docx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Source Code/Text from pdf and docx/text_from_pdf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="41" column="123" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="123" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FilesAreEqual.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TextExtractor_UnitTests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="89" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="89" />
+        <state relative-caret-position="221">
+          <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FilesAreEqual.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test_xmlGenerator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xmlGenerator_UnitTests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="66" column="44" lean-forward="true" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
+        <state relative-caret-position="867">
+          <caret line="79" column="26" lean-forward="false" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
             <element signature="e#63#89#0" expanded="false" />

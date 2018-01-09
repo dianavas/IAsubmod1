@@ -1,4 +1,4 @@
-def compareXMLs(file1_path, file2_path):
+def compareFiles(file1_path, file2_path):
     file1 = open(file1_path, "r")
     file1_content = file1.read()
 
