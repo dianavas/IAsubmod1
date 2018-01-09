@@ -9,15 +9,16 @@ from pdfminer.converter import TextConverter
 from pdfminer.layout import LAParams
 from pdfminer.pdfpage import PDFPage
 from cStringIO import StringIO
+import os
 
 
-def pdf_to_text(path):
+def pdf_to_text(fileName):
     rsrcmgr = PDFResourceManager()
     retstr = StringIO()
     codec = 'utf-8'
     laparams = LAParams()
     device = TextConverter(rsrcmgr, retstr, codec=codec, laparams=laparams)
-    fp = file(path, 'rb')
+    fp = file(fileName, 'rb')
     interpreter = PDFPageInterpreter(rsrcmgr, device)
     password = ""
     maxpages = 0
@@ -29,10 +30,13 @@ def pdf_to_text(path):
         interpreter.process_page(page)
 
     text = retstr.getvalue()
-    file_to_write = open("testfile.txt", "w")
+    newFile = os.path.splitext(fileName)[0] + '.txt'
+    file_to_write = open(newFile, "w")
     file_to_write.write(text)
 
     fp.close()
     device.close()
     retstr.close()
     file_to_write.close()
+
+#pdf_to_text('C:\\Users\\Daniell\\Desktop\\Text from pdf and docx\\lesson2.pdf')

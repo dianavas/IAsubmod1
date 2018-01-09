@@ -13,7 +13,7 @@ import os
 def doc_to_docx(filePath):
 
     wrd = win32com.client.Dispatch("Word.Application")
-    wrd.visible = 0
+    #wrd.visible = 0
     wb = wrd.Documents.Open(filePath)
 
     filePath = filePath + 'x'
@@ -24,5 +24,4 @@ def doc_to_docx(filePath):
     wrd.Quit()
 
 
-#doc_to_docx('C:\\Users\\Daniell\\Python\\Test\\AI\\sample.doc')
-
+#doc_to_docx('C:\\Users\\Daniell\\Desktop\\Text from pdf and docx\\sample.doc')
