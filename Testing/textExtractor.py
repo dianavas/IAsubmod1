@@ -38,3 +38,5 @@ def pdf_to_text(fileName):
     device.close()
     retstr.close()
     file_to_write.close()
+
+pdf_to_text('files/textExtractor/pdf_T2b_un substantiv.pdf')

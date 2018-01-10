@@ -38,5 +38,3 @@ def pdf_to_text(fileName, nume):
     device.close()
     retstr.close()
     file_to_write.close()
-
-#pdf_to_text('C:\\Users\\Daniell\\Desktop\\Text from pdf and docx\\lesson2.pdf')
