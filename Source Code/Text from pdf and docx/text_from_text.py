@@ -8,6 +8,3 @@ def txt_to_txt(fileName):
     
     for line in docx_file.readlines():
         fileToWrite.write(line)
-
-
-#txt_to_txt('C:\\Users\\Daniell\\Python\\Test\\AI\\FisierTextt.txt')

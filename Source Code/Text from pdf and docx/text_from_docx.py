@@ -16,5 +16,3 @@ def docx_to_txt(fileName, nume):
     text = textract.process(fileName, encoding = "utf-8")
 
     fileToWrite.write(text)
-
-#docx_to_txt('C:\\Users\\Daniell\\Desktop\\Text from pdf and docx\\fsad.docx')
