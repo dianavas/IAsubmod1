@@ -12,24 +12,48 @@ import text_from_pdf
 import text_from_docx
 import docx_from_doc
 import text_from_text
+import shutil
 import os
 
 
-def ConvertFile(file_path):
-    directory = file_path
+file_path = 'C:\\Users\\Daniell\\Desktop\\Text from pdf and docx\\'
+directory = file_path
+folder = 'txtFiles'
+
+
+def ConvertFile(file_path): 
     files = os.listdir(directory)
+    
+    if not os.path.exists(folder):
+        os.makedirs(folder)
+
+    nr = 1
+    name = 'file'
+    
 
     delete_headersAndFooters_fromDocAndDocx.batch_remove(file_path)
     
     for file in files:
         if file.endswith('.docx'):
-            text_from_docx.docx_to_txt(file_path + file)
+            text_from_docx.docx_to_txt((file_path + file), (name + str(nr) + '.txt'))
+            nr += 1
         elif file.endswith('.doc'):
             docx_from_doc.doc_to_docx(file_path + file)
             file = file + 'x'
-            text_from_docx.docx_to_txt(file_path + file)
+            text_from_docx.docx_to_txt((file_path + file), (name + str(nr) + '.txt'))
+            nr += 1
+            os.remove(file_path + file)
         elif file.endswith('.pdf'):
-            text_from_pdf.pdf_to_text(file_path + file)
+            text_from_pdf.pdf_to_text((file_path + file), (name + str(nr) + '.txt'))
+            nr += 1
+    
+
+ConvertFile(file_path)
 
 
-#ConvertFile('C:\\Users\\Daniell\\Desktop\\Text from pdf and docx\\')
+files = os.listdir(directory)
+for file in files:
+        if file.endswith('.txt'):
+            shutil.move((file_path + file), (file_path + folder)) 
+
+
