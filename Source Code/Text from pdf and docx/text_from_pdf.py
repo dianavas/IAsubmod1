@@ -12,7 +12,7 @@ from cStringIO import StringIO
 import os
 
 
-def pdf_to_text(fileName):
+def pdf_to_text(fileName, nume):
     rsrcmgr = PDFResourceManager()
     retstr = StringIO()
     codec = 'utf-8'
@@ -31,7 +31,7 @@ def pdf_to_text(fileName):
 
     text = retstr.getvalue()
     newFile = os.path.splitext(fileName)[0] + '.txt'
-    file_to_write = open(newFile, "w")
+    file_to_write = open(nume, "w")
     file_to_write.write(text)
 
     fp.close()
