@@ -1,5 +1,6 @@
 import sys, os
 import codecs
+from pyquery import PyQuery as pq
 
 try:
     from html import unescape  # python 3.4+
@@ -47,6 +48,8 @@ def read_document(file):
 
 
 def write_xml(file_path, file_name, data):
+    if not os.path.exists(file_path):
+        os.makedirs(file_path)
     if not file_name.endswith(".xml"):
         file_name += ".xml"
     with open(os.path.join(file_path, file_name), "w") as f:
@@ -54,9 +57,13 @@ def write_xml(file_path, file_name, data):
 
 
 def get_result(server_response):
-    result = \
-        str(server_response.content.decode(server_response.apparent_encoding)).split("<return>")[1].split("</return>")[
-            0]
+    result = ""
+    try:
+        # rs = pq(server_response, parser="xml")
+
+        result = str(server_response.content.decode(server_response.apparent_encoding)).split("<return>")[1].split("</return>")[0]
+    except Exception as e:
+        print(str(e))
     if result == "":
         result = "No result from server :("
     return unescape(result)

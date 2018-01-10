@@ -1,5 +1,6 @@
 import requests
 from utils import get_result, validate_language
+from xml.dom import minidom
 
 wsdl_file = 'http://nlptools.info.uaic.ro/UAIC.AnaphoraResolution/AnaphoraResolutionWS?wsdl'
 headers = {'content-type': 'text/xml'}
@@ -60,15 +61,13 @@ def match(pronoun, noun):
 
 
 def solve_links_manual(xml):
-    from xml.dom import minidom
     xmldoc = minidom.parseString(xml)
     sentences = xmldoc.getElementsByTagName("S")
     search_list = []
     for s in sentences:
         words = s.getElementsByTagName("W")
         for w in words:
-            if w.hasAttribute("POS") and (
-                            w.attributes["POS"].value == "NOUN" or w.attributes["POS"].value == "PRONOUN"):
+            if w.hasAttribute("POS") and (w.attributes["POS"].value == "NOUN" or w.attributes["POS"].value == "PRONOUN"):
                 search_list.append(w)
     anaphoras = []
 
