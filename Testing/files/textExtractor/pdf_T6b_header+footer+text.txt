@@ -1,0 +1,11 @@
+Acesta este u header 
+ 
+
+ 
+
+Acesta este un paragraf. 
+
+Acesta este un footer 
+ 
+
+
