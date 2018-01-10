@@ -9,13 +9,11 @@ import textract
 import os
 
 
-def docx_to_txt(fileName):
-    docx_file = open(fileName, 'r')
-    
+def docx_to_txt(fileName, nume): 
     newFile = os.path.splitext(fileName)[0] + '.txt'
-    fileToWrite = open(newFile, "w")
+    fileToWrite = open(nume, "w")
 
-    text = textract.process(fileName)
+    text = textract.process(fileName, encoding = "utf-8")
 
     fileToWrite.write(text)
 
